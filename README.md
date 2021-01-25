@@ -29,7 +29,9 @@ ZkSpy is run at the command line using the following switches:
 
   --version        Display version information.
   
-  A configuration file may be used to decrease the amount of typing required to launch the application. This is a sample configuration for a ZkTeco clock:
+  A configuration file may be used to decrease the amount of typing required to launch the application. 
+  
+  This is a sample configuration for a ZkTeco clock:
   
   ```xml
   <?xml version="1.0" encoding="utf-8" ?>
@@ -42,6 +44,24 @@ ZkSpy is run at the command line using the following switches:
         <add key="Clock.Name" value="TFT-900" />
 
         <add key="Host.IPAddress" value="127.0.0.1" />
+
+        <add key="LogFile" value="" />
+
+    </appSettings>
+ </configuration>
+ ```
+ This is a sample configuration for a Schlage clock
+ ```xml
+
+ <?xml version="1.0" encoding="utf-8" ?>
+ <configuration>
+
+    <appSettings>
+
+        <add key="Clock.IPAddress" value="192.168.1.205" />
+        <add key="Clock.Port" value="3001" />
+
+        <add key="Host.IPAddress" value="127.0.0.1" /> 
 
         <add key="LogFile" value="" />
 
