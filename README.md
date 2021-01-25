@@ -31,6 +31,7 @@ ZkSpy is run at the command line using the following switches:
   
   A configuration file may be used to decrease the amount of typing required to launch the application. This is a sample configuration for a ZkTeco clock:
   
+  ```xml
   <?xml version="1.0" encoding="utf-8" ?>
   <configuration>
 
@@ -46,6 +47,7 @@ ZkSpy is run at the command line using the following switches:
 
     </appSettings>
  </configuration>
+ ```
   
   
 
