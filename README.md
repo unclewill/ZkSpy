@@ -1,2 +1,2 @@
 # ZkSpy
-ZkSpy is an application for Windows or Linux which allows spying on the communication between a client application and a timeclock with ZKTeco firmware
+ZkSpy is an application for Windows or Linux which allows spying on the communication between a client application and a timeclock with ZKTeco firmware. At present it only supports communication over TCP. If your client application uses UDP it is still useful as an investigative tool because the TCP datagrams differ from their UDP counterparts by a leading 4 byte marker (0x50, 0x50, 0x82, 0x7D) and a 4 byte little endian field which contains the length of the message (not including the maker or length field).
