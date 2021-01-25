@@ -11,23 +11,23 @@ ZkSpy is distributed as a single file executable with no dependencies. It was te
 
 ZkSpy is run at the command line using the following switches:
 
-  -a, --address    Clock IP address; default is 192.168.1.201
+  **-a, --address**    Clock IP address; default is 192.168.1.201
 
-  -t, --type       Clock type; (Z[KTeco] or S[chlage]); default is ZKTeco
+  **-t, --type**       Clock type; (Z[KTeco] or S[chlage]); default is ZKTeco
 
-  -p, --port       Clock port; usually 4370 for ZKTeco, always 3001 for Schlage
+  **-p, --port**       Clock port; usually 4370 for ZKTeco, always 3001 for Schlage
 
-  -n, --name       Clock name; default is 'clock'
+  **-n, --name**       Clock name; default is 'clock'
 
-  -i, --ip         Host IP address; default is '127.0.0.1'
+  **-i, --ip**         Host IP address; default is '127.0.0.1'
 
-  -l, --log        Log file for hard copy; default is a console log
+  **-l, --log**        Log file for hard copy; default is a console log
 
-  -@, --config     Settings file; default is 'ZkSpy.config' with NO command line
+  **-@, --config**     Settings file; default is 'ZkSpy.config' with NO command line
 
-  --help           Display this help screen.
+  **--help**           Display help
 
-  --version        Display version information.
+  **--version**        Display version information.
   
   A configuration file may be used to decrease the amount of typing required to launch the application. 
   
