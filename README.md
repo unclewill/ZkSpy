@@ -28,11 +28,8 @@ ZkSpy is run at the command line using the following switches:
   **--help**           Display help
 
   **--version**        Display version information.
-  
-  ZkSpy by William DePalo is licensed under CC BY-NC-ND 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/
-  The legal text is at the link. 
-  
-  A configuration file may be used to decrease the amount of typing required to launch the application. 
+   
+  A configuration file may be used to decrease the amount of typing required to launch the application repeatedly. 
   
   This is a sample configuration for a ZkTeco clock:
   
@@ -70,6 +67,9 @@ ZkSpy is run at the command line using the following switches:
 
     </appSettings>
  </configuration>
+
+ ZkSpy by William DePalo is licensed under CC BY-NC-ND 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/
+  The legal text is at the link. See the LICENSE file for comments.
  ```
   
   
